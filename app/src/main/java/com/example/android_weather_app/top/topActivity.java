@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.android_weather_app.top.ui.top.TopFragment;
+import com.example.android_weather_app.R;
 
 public class topActivity extends AppCompatActivity {
 
@@ -12,10 +12,5 @@ public class topActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.top_activity);
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, TopFragment.newInstance())
-                    .commitNow();
-        }
-    }
+      }
 }
