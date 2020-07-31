@@ -11,6 +11,6 @@ public class topActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.top_activity);
+        setContentView(R.layout.activity_top);
       }
 }
